@@ -1,0 +1,14 @@
+body  {
+    background: url(../img/retina_wood.png);
+   
+}
+
+#form {
+ margin-bottom: 10px;
+   color: yellowgreen;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    
+}
+

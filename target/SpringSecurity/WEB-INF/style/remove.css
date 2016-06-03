@@ -1,0 +1,28 @@
+.products-main{
+	position: relative;
+}
+
+.products-main .close{
+	width: 25px;
+	height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    display: none;
+    color:red;
+    text-shadow: none;
+    opacity: 1;
+}
+.products-main .close i{
+	color: red;
+	font-size: 25px;
+	width: 100%;
+	height: auto;
+}
+
+.products-main:hover .close{
+	display: block;
+}
+input[type="text"]{
+	visibility: hidden;
+}

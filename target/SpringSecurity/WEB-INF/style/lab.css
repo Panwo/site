@@ -1,0 +1,17 @@
+h3 {
+
+    color: red;
+}
+
+h1{
+    color:white;
+}
+
+body{
+    background-color: burlywood;
+    margin: auto;
+    width: 1200px;
+    vertical-align: center;
+    text-align: center;
+}
+

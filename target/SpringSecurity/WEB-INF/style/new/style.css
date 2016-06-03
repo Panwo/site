@@ -1,0 +1,322 @@
+a{
+    color: brown;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+img{
+    border: none;
+}
+
+.catalog{
+    width: 726px;
+    margin: 30px auto;
+}
+
+.product{
+    border-right: 1px dotted red;
+    padding: 0 15px;
+
+}
+
+.products-main{
+    width: 200px;
+    float: left;
+}
+
+.products-main:nth-child(3n).product{
+    border-right: none;
+}
+
+.products-main:nth-last-child.product{
+    border: none;
+}
+
+.products-main: nth-child(3n).bot-dot{
+                                 margin: 20px 0 20px 20px;
+                             }
+
+.products-main: nth-child(3n+1).bot-dot{
+                                   margin: 20px 20 20px 0px;
+                               }
+
+.product h2{
+    text-align: center;
+    font: bold 14px/1.3 Tahoma;
+    margin: 0 0 15px 0;
+}
+
+.product-img{
+    text-align: center;
+}
+
+.price{
+    font: 21px/1.3 "Trebuchet MS" , Arial , Helvetica, color:red;
+
+    position: absolute;
+    padding: 5px;
+    padding-top: 13px;
+}
+
+.price2{
+    font: 21px/1.3 "Trebuchet MS" , Arial , Helvetica, color:red;
+    padding: 5px;
+    padding-top: 13px;
+}
+
+.rows{
+    width: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+
+.price span{
+    font-size:  15px;
+    color: green;
+}
+
+.bot-dot{
+    border-bottom:  1px dotted red;
+    margin: 20px;
+}
+
+
+body  {
+    background: url(../img/retina_wood.png);
+
+}
+
+
+#userr {
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -120px
+}
+
+
+.wrt{
+    padding-top: 20px;
+}
+
+#span3
+{
+    margin-right: 100px;
+
+}
+
+
+
+#form {
+    margin-bottom: 100px;
+    color: yellowgreen;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#backs{
+    background-color: aliceblue;
+    width: 960;
+    height: 700;
+    margin-top: 0;
+}
+
+
+#back{
+    background-color: azure;
+    width: 1024;
+    height: 768;
+}
+
+#header {
+    background: #f1ece8;
+    height:95px;
+}
+
+#content {
+    background: #fff;
+
+}
+
+.sidebar {
+    margin:0;
+    height:300px;
+
+}
+
+#smenu {
+    display: block;
+    position: static;
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin-top: 25px;
+}
+
+
+
+.btn-danger {
+    float: none;
+}
+
+.btn-primary{
+    float: ;
+}
+
+
+
+.rows{
+    width: 50px;
+    margin-left: 80px
+}
+
+#myform{
+    height: 200px;
+    width:  290px;
+    margin-top: 79px;
+    margin-left: 100px;
+    background-color: red;
+    align-content:  center;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    top: 100px;
+
+}
+
+#men{
+
+    margin: -100px 0px 0px 140px ;
+    height: 100px;
+    min-width: 960px;
+
+
+}
+
+.btn {
+    margin: 48px;
+}
+
+
+
+.text
+{
+    background: #fff;
+    height:1600px;
+    width: 650px;
+    padding-left: 20px;
+}
+
+
+#footer {
+    height: 150px;
+    background: #ff6000;
+    margin-left: -20px;
+}
+
+
+.logos {
+    width: 200px;
+
+    margin-left: 750px;
+    margin-top: -100px;
+}
+
+h4 {
+    text-decoration: underline;
+
+}
+.adressa
+{
+    font-size: 1.4em;
+    font-weight: bold;
+    width: 300px;
+
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.blockkon
+{text-align: left
+    line-height : 1.2em;
+    padding: 0.3em 0;
+    margin-left: 30px;
+    color: white;
+    font-size: 70%;
+}
+
+
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.pluso {
+    margin-top: 60px;
+    margin-left: 45px;
+
+}
+.gte
+{margin-right: 300px;
+
+}
+
+.logo1
+{margin-top: 20px;
+
+}
+
+.gte
+{
+    margin-top: 170px;
+    margin-left: 20px;
+}
+
+.side1
+{padding: 10px;
+    margin-right: 1000px;
+}
+
+.btn
+{
+    background-color: #green;
+    background-repeat: repeat-y;}
+
+.fam
+{
+
+    position: relative;
+    left:750px;
+    top:120px;
+    color: blue;
+    font-size: 12pt;
+    width: 200px;
+}
+
